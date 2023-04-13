@@ -1,15 +1,16 @@
 import React from 'react'
-import { Button, Icon } from 'semantic-ui-react'
+import { Button } from 'semantic-ui-react'
 
 const ButtonExampleButton = () => {
     return (
         <div>
-            <Button.Group size='massive' vertical>
+            <Button.Group size='small' >
                 <Button>Feed</Button>
                 <Button>Messages</Button>
                 <Button>Events</Button>
+                <Button>Photos</Button>
             </Button.Group>
-            <Button>Photos</Button>
+
         </div>
     )
 
